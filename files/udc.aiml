@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+  <category>
+    <pattern>Hello *</pattern>
+    <template>Hello Human!.</template>
+  </category>
+  
+  
+  <category>
+    <pattern>What is your name</pattern>
+    <template>My name is test bot.</template>
+  </category>
+  
+  <category>
+    <pattern>Hello Bot</pattern>
+    <template>Hello Human!</template>
+  </category>
+  
+  
+  <category>
+    <pattern>Sup</pattern>
+    <template>I've got nothing to say.</template>
+  </category>
+
+<category>
+    <pattern>_ Bot</pattern>
+    <template>XYZ.</template>
+  </category>
+  
+  <category>
+    <pattern>My name is *</pattern>
+    <template>Hello <star index="1"></star></template>
+  </category>
+
+
+  <category>
+    <pattern>say *</pattern>
+    <template><star index="1"></star></template>
+  </category>
+
+  
+</aiml>
