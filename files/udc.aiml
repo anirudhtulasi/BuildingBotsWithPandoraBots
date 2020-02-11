@@ -28,16 +28,28 @@
     <template>XYZ.</template>
   </category>
   
-  <category>
-    <pattern>My name is *</pattern>
-    <template>Hello <star index="1"></star></template>
-  </category>
-
+ 
 
   <category>
     <pattern>say *</pattern>
     <template><star index="1"></star></template>
   </category>
+
+ <category>
+    <pattern>say *</pattern>
+    <template><star index="1"></star></template>
+  </category>
+  
+  <category>
+      <pattern>My name is * *</pattern>
+    <template>Hello <star index="1"></star>, Is <star index="2"> </star> your last name?</template>
+  </category>
+  
+  <category>
+      <pattern>Yes</pattern>
+    <template>Great to hear that.</template>
+  </category>
+
 
   
 </aiml>
