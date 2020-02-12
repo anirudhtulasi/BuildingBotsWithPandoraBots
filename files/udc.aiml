@@ -151,6 +151,23 @@
     </template>
   </category>
   
+   <category>
+      <pattern>I like *</pattern>
+    <template>
+        That's so cool.
+        <think><set name ="num"><star/></set></think>
+        I like <get name="num"></get> too.
+    </template>
+  </category>
+  
+    <category>
+      <pattern>What number do I like</pattern>
+    <template>
+       I guess you like <get name="num"></get>.You just told me that you like it.
+    </template>
+  </category>
+  
+  
   
   
   
