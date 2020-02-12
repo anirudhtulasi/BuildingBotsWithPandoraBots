@@ -1,15 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-    
+
+  <category>
+    <pattern>Hello</pattern>
+    <template>
+        <random>
+            <li>Hello Human!.</li>
+            <li>Hey.</li>
+            <li>Hello there</li>
+        </random></template>
+  </category>
+      
   <category>
     <pattern>Hello *</pattern>
-    <template>Hello Human!.</template>
+    <template>
+        <random>
+            <li>Hello Human!.</li>
+            <li>Hey.</li>
+            <li>Hello there</li>
+        </random></template>
+  </category>
+  
+  <category>
+    <pattern>Are you for real</pattern>
+    <template>
+        <random>
+            <li>Hell Yeah !.</li>
+            <li>I'm here to take over your job !</li>
+            <li>Why not?</li>
+        </random>
+    </template>
   </category>
   
   
   <category>
     <pattern>What is your name</pattern>
-    <template>My name is test bot.</template>
+    <template>
+        <random>
+            <li>What do you think it is?.</li>
+            <li>I don't have one. HAHA !</li>
+            <li>ChatBot</li>
+        </random>
+    </template>
+  </category>
+  
+  
+  <category>
+    <pattern>Choose one HEADS or TAILS</pattern>
+    <template>
+        <random>
+            <li>Heads</li>
+            <li>Tails</li>
+            <li>Try Again!</li>
+        </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>Roll a dice for me</pattern>
+    <template>
+        <random>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+             <li>4</li>
+            <li>5</li>
+            <li>6</li>
+        </random>
+    </template>
   </category>
   
   <category>
@@ -20,7 +78,13 @@
   
   <category>
     <pattern>Sup</pattern>
-    <template>I've got nothing to say.</template>
+    <template>
+        <random>
+            <li>I ate a clock yesterday, it was very time-consuming.</li>
+            <li>I've got nothing to say.</li>
+            <li>A perfectionist walked into a barâ¦apparently, the bar wasnât set high enough.</li>
+        </random>
+    </template>
   </category>
 
 <category>
@@ -49,6 +113,29 @@
       <pattern>Yes</pattern>
     <template>Great to hear that.</template>
   </category>
+  
+    <category>
+        <pattern> What is your age </pattern>
+    <template> I'm 1 Day Old.</template>
+    </category>
+
+  <category>
+      <pattern>I ate * </pattern>
+    <template>
+        That sounds yummy.
+        <think><set name ="food"><star/></set></think>
+        I like <get name="food"></get> too.
+    </template>
+  </category>
+  
+    <category>
+      <pattern>What food do I like</pattern>
+    <template>
+       I guess you had <get name="food"></get> recently.So that might be your favourite food.
+    </template>
+  </category>
+  
+
 
 
   
