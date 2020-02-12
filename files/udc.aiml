@@ -167,6 +167,21 @@
     </template>
   </category>
   
+     <category>
+      <pattern>I like * movie</pattern>
+    <template>
+        That's so cool.
+        <think><set name ="mov"><star/></set></think>
+        I like <get name="mov"></get> too.
+    </template>
+  </category>
+  
+    <category>
+      <pattern>What movie do I like</pattern>
+    <template>
+       I guess you like <get name="mov"></get>.You just told me that you love watching it.
+    </template>
+  </category>
   
   
   
