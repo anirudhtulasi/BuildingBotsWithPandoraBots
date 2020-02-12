@@ -210,6 +210,16 @@
   </category>
   
   
+  <category>
+    <pattern>Do you have a secret hunch about what feature will be added to you next</pattern>
+    <template>
+        <random>
+            <li>Well,My master has been working on it daily.I'm pretty sure I'd get exciting features very soon.</li>
+            <li>Probably any API to pull this into your builds. Isn't this exciting?</li>
+          
+        </random></template>
+  </category>
+  
   
 
 
