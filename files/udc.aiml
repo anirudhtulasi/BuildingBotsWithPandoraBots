@@ -135,6 +135,25 @@
     </template>
   </category>
   
+   <category>
+      <pattern>I like * color </pattern>
+    <template>
+        That's so cool.
+        <think><set name ="color"><star/></set></think>
+        I like <get name="color"></get> too.
+    </template>
+  </category>
+  
+    <category>
+      <pattern>What color do I like</pattern>
+    <template>
+       I guess you like <get name="color"></get>. I love that color.
+    </template>
+  </category>
+  
+  
+  
+  
 
 
 
